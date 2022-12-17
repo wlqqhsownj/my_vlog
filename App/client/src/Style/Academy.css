@@ -1,0 +1,52 @@
+.academy {
+    display: flex;
+}
+
+.modal-blog.modal,
+.modal-blog.overlay {
+    overflow: scroll;
+}
+
+.academy .modal-grid {
+    display: flex;
+}
+
+.academy .heading h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.academy .heading h4 {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 200%;
+    color: black;
+}
+
+.academy .acad img {
+    float: right;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.academy .modal-content {
+    display: flex;
+}
+
+@media screen and (min-width: 312px) and (max-width: 768px) {
+    .academy .modal-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .academy .modal-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .academy .acad img {
+        float: right;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+}

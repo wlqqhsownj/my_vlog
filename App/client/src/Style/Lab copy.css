@@ -1,0 +1,47 @@
+.lab {
+    display: flex;
+}
+
+.modal-blog.modal,
+.modal-blog.overlay {
+    overflow: scroll;
+}
+
+
+.lab .modal-grid {
+    display: flex;
+}
+
+.lab .heading h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.lab .heading h4 {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 200%;
+    color: black;
+}
+
+.lab .labs img {
+    float: right;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.lab .modal-content {
+    display: flex;
+}
+
+@media screen and (min-width: 312px) and (max-width: 768px) {
+    .lab .modal-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .lab .modal-content {
+        display: flex;
+        flex-direction: column;
+    }
+}

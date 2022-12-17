@@ -1,0 +1,66 @@
+const data = [
+    {
+        id: 1,
+        image: "/Event/Youtube.png",
+        title: "YouTube 보라 한신 TV",
+        desc: "한신대학교 공공인재학부 소개 영상",
+        more: "https://www.youtube.com/embed/_wWfvg5xH2g",
+    },
+    {
+        id: 2,
+        image: "/Event/instagram.png",
+        title: "한신 공빅 제 2대 학생회 LUCY",
+        desc: "한신 공빅 제 2대 학생회 공식 인스타그램",
+        more: "https://instagram.com/hs_lucy_gongbig?igshid=YmMyMTA2M2Y",
+    },
+    {
+        id: 3,
+        image: "/Event/cafe.png",
+        title: "한신 공빅 제 2대 학생회 LUCY",
+        desc: "한신 공빅 제 2대 학생회 공식 카페",
+        more: "https://cafe.naver.com/freesiaforum",
+    },
+    {
+        id: 4,
+        image: "/Event/Youtube.png",
+        title: " 한신대학교 공식 입학처",
+        desc: "입시요강 및 일정을 확인하세요",
+        more: "https://ent.hs.ac.kr/ipsi/main/main.asp",
+    },
+    {
+        id: 5,
+        image: "/Event/Logo.png",
+        title: "한신 공빅학부 소개",
+        desc: "한신 공빅 소개 내용을 확인해보세요",
+        more: "https://www.hs.ac.kr/kor/10501/subview.do",
+    },
+    {
+        id: 6,
+        image: "/event/mt.jpeg",
+        title: "22년도 학부 MT",
+        desc: "22.06.16(목) 첫 학부 MT를 계곡이 있는 양평의 한 펜션으로 가 계곡에서도 놀고 바베큐 파티도 하며 여러 프로그램을 진행했습니다.",
+        more: "https://cafe.naver.com/freesiaforum/115",
+    },
+    {
+        id: 7,
+        image: "/event/gongnight.jpg",
+        title: "반짝이는 우리들의 밤 [공공나린 밤]",
+        desc: "22.05.16 매년마다 선후배 친목도모를 위해 진행하는 프로그램 [공공나린 밤]을 처음으로 개최하였습니다.",
+        more: "https://cafe.naver.com/freesiaforum/114",
+    },
+    {
+        id: 8,
+        image: "/event/mt.jpeg",
+        title: "22학번 반갑다 친구야",
+        desc: "2022.05.13 (금) 작년 21학번에 이어 22학번들을 위한 [반갑다 친구야] 프로그램을 교수님들과 많은 학우들의 참여속에 진행하였습니다",
+        more: "https://cafe.naver.com/freesiaforum/113",
+    },
+    {
+        id: 9,
+        image: "/event/opline.png",
+        title: "문·이과 틀을 깨자…행정학+데이터사이언스=한신 공공인재학부 눈길",
+        desc: "한신대 공공인재학부의 혁신성이 언론에 소개되었습니다.",
+        more: "https://www.inews24.com/view/1392819",
+    },
+];
+export default data;

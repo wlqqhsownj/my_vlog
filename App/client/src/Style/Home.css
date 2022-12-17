@@ -1,0 +1,31 @@
+.Main{
+    padding-top: 30px;
+}
+
+.Main .mainword {
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.fly .word {
+    font-weight: bold;
+    padding: 100px auto;
+}
+
+.fly{
+    padding-top: 70px;
+}
+
+.fly .word1 {
+    font-size: small;
+}
+
+.name .na {
+    font-weight: bold;
+    text-align: center;
+}
+
+.img {
+    text-align: center;
+}

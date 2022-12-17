@@ -1,0 +1,37 @@
+.features .modal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.features .heading h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.features box h1 {
+    font-size: 25px;
+}
+
+.features .box h2 {
+    margin: 20px 0 20px 0;
+}
+.features .box p {
+    word-spacing: 2px;
+    transition: 0.5s;
+    text-indent: 150px;
+    color: rgb(61, 7, 224);
+}
+
+.features .box:hover p {
+    color: rgb(64, 14, 201);
+}
+
+@media screen and (min-width: 312px) and (max-width: 768px) {
+    .features .modal-grid {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 40px;
+    }
+}

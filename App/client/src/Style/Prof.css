@@ -1,0 +1,36 @@
+#prof .rows {
+    margin-bottom: 40px;
+}
+
+#prof Figure {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 60px 10px 10px 10px;
+}
+
+#prof Figure Figure.Image {
+    border-radius: 5%;
+}
+
+#prof Figure .thirdFig {
+    border-radius: 5%;
+    width: 3500px;
+    height: 350px;
+    align-items: center;
+}
+
+/* #prof .columns {
+    margin: 0px 2px 0px 2px;
+} */
+
+/* 
+#prof.columns {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 20px 10px 40px 10px;
+}
+ */
